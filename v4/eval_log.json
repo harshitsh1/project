@@ -1,0 +1,3362 @@
+[
+  {
+    "step": 0,
+    "avg_reward": 0.9545,
+    "exact_match": 0.7727,
+    "avg_resp_len": 54.5,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": 0.0,
+    "n_eval": 22,
+    "eval_time_s": 236.9,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages and other hyperte",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool that is commonly used to describe the performance or complexity of an algorithm. I",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=1.00 (contra=0.00, neutral=0.00)",
+        "n_words": 60
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level programming language that is widely used for web development, data analysis, machine learning, an",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and Recall are two important metrics used in evaluating the performance of binary classifiers (classifiers tha",
+        "reward": 0.8,
+        "feedback": "Keyword 'positive' found but NLI uncertain (e=0.01,c=0.01). Precision = true pos",
+        "n_words": 59
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a decision problem in computer science and mathematics that asks whether or not an algorithm will",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.90 (contra=0.01, neutral=0.08)",
+        "n_words": 56
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s). This value is known as the speed of",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 47
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a collection of data that can be organized and accessed in various ways. Databases store information in ta",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory used to store data temporarily while the computer i",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A Transformer model is a type of neural network architecture that has been widely used for natural language processing (",
+        "reward": 0.8,
+        "feedback": "Keyword 'attention' found but NLI uncertain (e=0.00,c=0.00). Transformers use se",
+        "n_words": 53
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a well-defined procedure or set of rules for solving a problem or performing a computation. It's essenti",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 49
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science where a function calls itself again and again until it reaches a ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function in machine learning serves as a measure to quantify how well a model's predictions match the actual data",
+        "reward": 1.0,
+        "feedback": "Correct! keyword 'error' + NLI=0.39",
+        "n_words": 55
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which green plants use sunlight to convert carbon dioxide and water into glucose (a typ",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 56
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging items in a specific order, such as alphabetically or numerically. Sorting algorithms",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a software program that manages computer hardware and software resources, allowing users to ",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 55
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a programming technique where a function calls itself repeatedly until it reaches a base case or terminatin",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is an API?",
+        "response": "An API (Application Programming Interface) is a set of rules and protocols that enables different software applications ",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 57
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a program that translates source code written in one programming language into another programming languag",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 54
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are two techniques used in machine learning to prevent overfitting of models. Overfitting occur",
+        "reward": 0.8,
+        "feedback": "Keyword 'absolute' found but NLI uncertain (e=0.00,c=0.00). L1 uses absolute val",
+        "n_words": 48
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions are used in artificial neural networks to introduce non-linearity into the model. Without activatio",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.01,c=0.00). Activation functio",
+        "n_words": 52
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "A variable is a named location in memory that holds a value or data that can be changed during the execution of a progra",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are blocked forever because each process is waiting for some resource held ",
+        "reward": 0.8,
+        "feedback": "Keyword 'wait' found but NLI uncertain (e=0.02,c=0.02). Deadlock occurs when pro",
+        "n_words": 59
+      }
+    ]
+  },
+  {
+    "step": 40,
+    "avg_reward": 0.9273,
+    "exact_match": 0.8182,
+    "avg_resp_len": 52.7,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.0272,
+    "n_eval": 22,
+    "eval_time_s": 212.9,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages. HTML documents c",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends tow",
+        "reward": 0.8,
+        "feedback": "Keyword 'upper bound' found but NLI uncertain (e=0.01,c=0.01). Big O notation de",
+        "n_words": 61
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level programming language that is widely used for various tasks such as web development, data analysis",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 46
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important metrics used in evaluating the performance of classification models or algorithms",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.98 (contra=0.01, neutral=0.01)",
+        "n_words": 57
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a fundamental concept in computer science and theoretical mathematics that states it's impossible",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.98 (contra=0.00, neutral=0.02)",
+        "n_words": 56
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in vacuum is approximately 299,792 kilometers per second (km/s). This value is also known as the spee",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 48
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database (DB) is an organized collection of data that can be accessed and manipulated using a specific language or int",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory that can be accessed randomly, meaning you can read",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 60
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A Transformer Model is an architecture that has been widely used in natural language processing (NLP) tasks due to its a",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.02). Need: ['attention', 'self-attention', 'self",
+        "n_words": 51
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a finite sequence of well-defined instructions that transforms input data into output information in a s",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 53
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science and programming where a function calls itself to solve smaller in",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function in machine learning serves as a metric to evaluate how well a model's predictions match the true values.",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.79 (contra=0.11, neutral=0.10)",
+        "n_words": 55
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which plants, algae, and some bacteria use sunlight to convert carbon dioxide and water",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 43
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging elements in ascending or descending order based on their values. Here's a brief over",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 48
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is the core software that manages computer hardware and software resources in order to provide ",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 53
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental programming technique where a function or process calls itself repeatedly until it reaches a ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is an API?",
+        "response": "An API (Application Programming Interface) is a set of rules and protocols that allows different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 56
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a type of computer program that translates source code written in one programming language into another pr",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 56
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are both methods used to prevent overfitting in machine learning models. However, they work dif",
+        "reward": 0.8,
+        "feedback": "Keyword 'absolute' found but NLI uncertain (e=0.00,c=0.01). L1 uses absolute val",
+        "n_words": 50
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions play a crucial role in neural networks. They serve several purposes:\n\n1. Non-linearity: The primary",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.00,c=0.00). Activation functio",
+        "n_words": 50
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a storage location paired with an associated symbolic name, used to hold data values that ",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are waiting for each other to release resources that they need in order to ",
+        "reward": 1.0,
+        "feedback": "Correct! keyword 'wait' + NLI=0.43",
+        "n_words": 48
+      }
+    ]
+  },
+  {
+    "step": 80,
+    "avg_reward": 0.7273,
+    "exact_match": 0.5455,
+    "avg_resp_len": 50.1,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.2272,
+    "n_eval": 22,
+    "eval_time_s": 177.8,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language and it's used to create the structure of web pages on the internet.",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 19
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is used to describe the performance or complexity of an algorithm in terms of the input size. It provides",
+        "reward": 0.8,
+        "feedback": "Keyword 'complexity' found but NLI uncertain (e=0.00,c=0.01). Big O notation des",
+        "n_words": 59
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is an interpreted high-level programming language known for its readability and ease of use. It was developed in ",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 47
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important metrics used to evaluate the performance of a classification model or system. The",
+        "reward": 0.8,
+        "feedback": "Keyword 'positive' found but NLI uncertain (e=0.29,c=0.06). Precision = true pos",
+        "n_words": 56
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a fundamental concept in computer science and mathematics that states it's impossible to determin",
+        "reward": 0.0,
+        "feedback": "Bad phrase: 'simple'. NLI(e=0.01,c=0.00). The halting problem is undecidable: no",
+        "n_words": 54
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792 kilometers per second (km/s), or about 670,616,629 miles per hou",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 37
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database (DB) is an organized collection of data that can be accessed and queried by multiple users or applications. D",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory used to store data temporarily while the computer i",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 28
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A transformer model is a type of neural network architecture that has revolutionized the field of natural language proce",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.00). Need: ['attention', 'self-attention', 'self",
+        "n_words": 49
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a set of instructions or procedures for solving a specific problem or performing a particular task. It i",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 55
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a powerful technique used in programming where a function calls itself to solve a problem. This process con",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function serves as a metric to measure how well a model's predictions match the actual data it was trained on. It",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.78). A loss function measures the error between",
+        "n_words": 55
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which plants and other organisms use light energy to synthesize food from carbon dioxid",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['sunlight']). Response: 'Photosynthesis is th",
+        "n_words": 57
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging elements in a specific order, such as ascending or descending. There are various alg",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a software program that manages computer hardware resources and provides common services for",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 55
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental concept in computer science and mathematics that involves solving problems through self-simil",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['itself']). Response: 'Recursion is a fundame",
+        "n_words": 51
+      },
+      {
+        "question": "What is an API?",
+        "response": "An Application Programming Interface (API) is a set of rules and protocols that allows different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 57
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a computer program that translates source code written in one programming language into machine language o",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 52
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are two techniques used in machine learning to prevent overfitting of models by adding penaltie",
+        "reward": 0.8,
+        "feedback": "Keyword 'lasso' found but NLI uncertain (e=0.00,c=0.00). L1 uses absolute values",
+        "n_words": 47
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions in neural networks serve several important purposes:\n\n1. Non-linearity: One of their primary roles ",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.00,c=0.00). Activation functio",
+        "n_words": 51
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named storage location used to hold and manipulate data or information during the execut",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when multiple processes or threads are waiting for each other to release resources that they need. Thi",
+        "reward": 0.8,
+        "feedback": "Keyword 'wait' found but NLI uncertain (e=0.12,c=0.04). Deadlock occurs when pro",
+        "n_words": 60
+      }
+    ]
+  },
+  {
+    "step": 120,
+    "avg_reward": 0.8,
+    "exact_match": 0.7273,
+    "avg_resp_len": 50.8,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1545,
+    "n_eval": 22,
+    "eval_time_s": 105.7,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language and it's the standard markup language used to create web pages. It allows you ",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool used to describe the performance or complexity of an algorithm. It provides a way ",
+        "reward": 0.8,
+        "feedback": "Keyword 'complexity' found but NLI uncertain (e=0.00,c=0.03). Big O notation des",
+        "n_words": 57
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level programming language that was designed to be easy to read and write while still being powerful an",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important evaluation metrics used in machine learning and data analysis to assess the perfo",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.80 (contra=0.08, neutral=0.12)",
+        "n_words": 57
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a decision problem in computer science and mathematics that asks whether it's possible to determi",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.99). The halting problem is undecidable: no alg",
+        "n_words": 53
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in vacuum is approximately 299,792,458 meters per second (m/s). This value is often rounded to 300 mi",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 45
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is an organized collection of data that can be accessed and managed efficiently. It serves as a centralized r",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory.",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A transformer model is an advanced neural network architecture introduced by Vaswani et al. in their 2017 paper \"Attenti",
+        "reward": 0.8,
+        "feedback": "Keyword 'attention' found but NLI uncertain (e=0.00,c=0.00). Transformers use se",
+        "n_words": 46
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a well-defined procedure or set of rules that specifies how to solve a particular problem or perform a s",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 57
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a method of solving problems where the solution depends on solutions to smaller instances of the same probl",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['itself']). Response: 'Recursion is a method ",
+        "n_words": 52
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "The purpose of a loss function in machine learning and artificial intelligence is to quantify how well a model's predict",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.96). A loss function measures the error between",
+        "n_words": 56
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which green plants and other organisms use sunlight to synthesize food from carbon diox",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 50
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging items in a specific order or sequence. This can be done based on various criteria su",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a software that manages computer hardware and software resources for executing computer prog",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 52
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a programming technique where a function or procedure calls itself repeatedly until it reaches a base case ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is an API?",
+        "response": "An API (Application Programming Interface) is a set of rules and protocols that allows different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 58
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a program that translates high-level programming language code into machine code (binary) for execution by",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 53
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are two techniques used in machine learning to prevent overfitting. Overfitting occurs when a m",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.00). Need: ['absolute', 'lasso', 'sparsity', 'sp",
+        "n_words": 50
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions in neural networks serve several key purposes:\n\n1. Non-linearity: Neural networks operate on linear",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.83 (contra=0.01, neutral=0.16)",
+        "n_words": 49
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named storage location used to store data that can be modified during the execution of a",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "In computer science, particularly in the field of operating systems and concurrent programming, a \"deadlock\" occurs when",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.67 (contra=0.07, neutral=0.26)",
+        "n_words": 51
+      }
+    ]
+  },
+  {
+    "step": 160,
+    "avg_reward": 0.8182,
+    "exact_match": 0.6364,
+    "avg_resp_len": 53.6,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1363,
+    "n_eval": 22,
+    "eval_time_s": 146.4,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages and web applicati",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is used to describe the performance or complexity of an algorithm in terms of the amount of time it takes",
+        "reward": 0.8,
+        "feedback": "Keyword 'complexity' found but NLI uncertain (e=0.22,c=0.02). Big O notation des",
+        "n_words": 58
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level programming language that was created in the late 1980s by Guido van Rossum. It is known for its ",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important evaluation metrics used in machine learning for classification problems.\n\n1. **Pr",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.64 (contra=0.03, neutral=0.33)",
+        "n_words": 50
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a fundamental concept in computer science and theoretical mathematics that deals with determining",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=1.00). The halting problem is undecidable: no alg",
+        "n_words": 55
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792 kilometers per second (km/s). This value is known as the speed o",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 42
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a structured collection of data that can be accessed and managed efficiently. Here are some key points abo",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of volatile memory used in computers to store data that can be accesse",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A Transformer model is an architecture used primarily for natural language processing (NLP) tasks such as translation an",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.00). Need: ['attention', 'self-attention', 'self",
+        "n_words": 52
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a set of step-by-step instructions designed to solve a particular problem or accomplish a specific task.",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 51
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a method of solving problems where the solution to a problem depends on solutions to smaller instances of t",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['itself']). Response: 'Recursion is a method ",
+        "n_words": 55
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function in machine learning serves several critical purposes:\n\n1. **Evaluation**: It quantifies how well the mod",
+        "reward": 0.8,
+        "feedback": "Keyword 'error' found but NLI uncertain (e=0.05,c=0.22). A loss function measure",
+        "n_words": 45
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which green plants and certain other organisms use sunlight to convert carbon dioxide a",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 54
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is a fundamental operation in computer science and data management that involves arranging elements of a collect",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is the core software that manages computer hardware and software resources to provide common se",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 56
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental concept in computer science and mathematics that refers to a process where a function or algo",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is an API?",
+        "response": "An API (Application Programming Interface) is a set of rules and protocols that enables different software applications ",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 58
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a program that translates source code written in a programming language into an equivalent form of machine",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 56
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are two techniques used in machine learning to prevent overfitting of models. They work differe",
+        "reward": 0.8,
+        "feedback": "Keyword 'absolute' found but NLI uncertain (e=0.00,c=0.00). L1 uses absolute val",
+        "n_words": 46
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions are used in artificial neural networks to introduce non-linearity into the model. The main purposes",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.02,c=0.00). Activation functio",
+        "n_words": 53
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named storage location that holds a value which can be changed during the course of a pr",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when multiple processes or threads are waiting for each other to release resources that they need to p",
+        "reward": 0.8,
+        "feedback": "Keyword 'wait' found but NLI uncertain (e=0.14,c=0.01). Deadlock occurs when pro",
+        "n_words": 61
+      }
+    ]
+  },
+  {
+    "step": 200,
+    "avg_reward": 0.9545,
+    "exact_match": 0.7727,
+    "avg_resp_len": 53.3,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": 0.0,
+    "n_eval": 22,
+    "eval_time_s": 191.3,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages and web applicati",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool used in computer science to describe the performance or complexity of an algorithm",
+        "reward": 0.8,
+        "feedback": "Keyword 'complexity' found but NLI uncertain (e=0.00,c=0.00). Big O notation des",
+        "n_words": 53
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level programming language that is widely used for various purposes such as web development, data analy",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important evaluation metrics used in machine learning tasks, particularly for classificatio",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.92 (contra=0.01, neutral=0.07)",
+        "n_words": 52
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a fundamental concept in computer science and theoretical mathematics that states it is impossibl",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.75 (contra=0.03, neutral=0.23)",
+        "n_words": 54
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in vacuum is approximately 299,792,458 meters per second (m/s). This value is known as the speed of l",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 39
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a structured collection of data that can be accessed and queried using a specific language or interface ca",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory that allows data to be stored and retrieved in any ",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 60
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A Transformer model is a type of neural network architecture used for natural language processing (NLP) tasks such as ma",
+        "reward": 0.8,
+        "feedback": "Keyword 'attention' found but NLI uncertain (e=0.00,c=0.00). Transformers use se",
+        "n_words": 50
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or formula for solving a problem or performing a task. It consists of a set of ",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 56
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science where a function calls itself repeatedly until it reaches a base ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function in machine learning serves several key purposes:\n\n1. Measure Error: The primary role of a loss function ",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.76 (contra=0.01, neutral=0.23)",
+        "n_words": 55
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which plants and some other organisms use light energy to synthesize food (in the form ",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 52
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging elements in a specific order. The most common types of orders include ascending (sma",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is an OS?",
+        "response": "Operating System (OS) is the software that manages computer hardware and software resources in order to provide common s",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 54
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental programming technique where a function calls itself repeatedly to solve problems. This approa",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is an API?",
+        "response": "An Application Programming Interface (API) is a set of rules and protocols that allows different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 55
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a type of computer program that translates high-level programming languages into machine code or another l",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 54
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 (Lasso) and L2 (Ridge) regularizers are two types of penalties that can be added to loss functions during the trainin",
+        "reward": 0.8,
+        "feedback": "Keyword 'lasso' found but NLI uncertain (e=0.00,c=0.02). L1 uses absolute values",
+        "n_words": 49
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function in machine learning and artificial neural networks is used to introduce non-linearity into the mo",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.04,c=0.00). Activation functio",
+        "n_words": 52
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named storage location within the computer's memory that can hold a value that can be ch",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when multiple processes or threads are waiting for each other to release resources that they need in o",
+        "reward": 0.8,
+        "feedback": "Keyword 'wait' found but NLI uncertain (e=0.20,c=0.05). Deadlock occurs when pro",
+        "n_words": 56
+      }
+    ]
+  },
+  {
+    "step": 240,
+    "avg_reward": 0.8727,
+    "exact_match": 0.7273,
+    "avg_resp_len": 52.8,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.0818,
+    "n_eval": 22,
+    "eval_time_s": 181.1,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages and other hyperte",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool used in computer science to describe the performance or complexity of an algorithm",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.99 (contra=0.00, neutral=0.01)",
+        "n_words": 56
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level programming language that was first released in 1991. It is widely used for general-purpose progr",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important metrics used in evaluating the performance of classification models. They measure",
+        "reward": 0.8,
+        "feedback": "Keyword 'positive' found but NLI uncertain (e=0.07,c=0.02). Precision = true pos",
+        "n_words": 54
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is an undecidable decision problem in computer science and mathematics. It was formulated by Alan Tu",
+        "reward": 0.8,
+        "feedback": "Keyword 'undecidable' found but NLI uncertain (e=0.00,c=0.00). The halting probl",
+        "n_words": 47
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792 kilometers per second (km/s). It's also commonly expressed as ab",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 34
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a collection of related data stored in a computer system for retrieval and manipulation according to speci",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is the type of memory used to store data that a computer can access quickly and ",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 60
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A Transformer model is a type of neural network architecture used for processing and generating sequences, such as text ",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.00). Need: ['attention', 'self-attention', 'self",
+        "n_words": 50
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or formula for solving a problem or performing a computation. It is a set of in",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 57
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science where a function calls itself repeatedly until it reaches a base ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function is a mathematical formula that quantifies how well an algorithm's predictions match the actual data it w",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=1.00). A loss function measures the error between",
+        "n_words": 55
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which green plants use sunlight to convert carbon dioxide and water into glucose and ox",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 53
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging elements in a specific order. The most common types of orders are ascending and desc",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a software program that manages computer hardware and software resources in a way that allow",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 55
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a programming technique where a function calls itself repeatedly to solve a problem. It involves breaking d",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is an API?",
+        "response": "An Application Programming Interface (API) is a set of rules and protocols that enables different software applications ",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 53
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a program that translates source code written in a high-level programming language into machine code that ",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 55
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are both techniques used to prevent overfitting in machine learning models. They do this by add",
+        "reward": 0.8,
+        "feedback": "Keyword 'lasso' found but NLI uncertain (e=0.00,c=0.00). L1 uses absolute values",
+        "n_words": 49
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "The purpose of an activation function in machine learning models is to introduce non-linearity into the model, which all",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.92 (contra=0.00, neutral=0.08)",
+        "n_words": 57
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named storage location that holds a value which can be changed during the execution of a",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "In computer science, specifically in the field of operating systems, a deadlock occurs when multiple processes or thread",
+        "reward": 0.8,
+        "feedback": "Keyword 'wait' found but NLI uncertain (e=0.03,c=0.01). Deadlock occurs when pro",
+        "n_words": 53
+      }
+    ]
+  },
+  {
+    "step": 280,
+    "avg_reward": 0.8909,
+    "exact_match": 0.8182,
+    "avg_resp_len": 52.1,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.0636,
+    "n_eval": 22,
+    "eval_time_s": 193.3,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for Hypertext Markup Language. It is the standard markup language used to create web pages and other multime",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool used to describe the performance or complexity of an algorithm. It provides a way ",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.99 (contra=0.00, neutral=0.01)",
+        "n_words": 57
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level programming language that was first released in 1991. It's known for its simplicity and readabili",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and Recall are two commonly used metrics in evaluating the performance of classification models in machine lea",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.80 (contra=0.09, neutral=0.11)",
+        "n_words": 46
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a famous undecidable problem in computer science and mathematics that was formulated by Alan Turi",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=1.00 (contra=0.00, neutral=0.00)",
+        "n_words": 53
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s). This constant is often denoted by t",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 42
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a structured collection of data that can be accessed and manipulated using specific query languages and to",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is the main component of a computer's internal memory used to store data that th",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 37
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A Transformer model is a type of neural network architecture that was introduced in 2017 by the research team from Stanf",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.00). Need: ['attention', 'self-attention', 'self",
+        "n_words": 56
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a finite set of well-defined instructions or rules for solving a problem or performing a computation. It",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 50
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a programming technique where a function calls itself repeatedly until it reaches a base case that stops th",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function is used in machine learning to measure how well a model's predictions match the actual data or target va",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.83). A loss function measures the error between",
+        "n_words": 54
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which plants and other organisms use sunlight to synthesize food from carbon dioxide an",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 56
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging items in a specific order, typically ascending or descending. There are many differe",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a software that manages computer hardware and software resources, providing common services ",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 51
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a programming technique where a function calls itself repeatedly until it reaches a base case that stops fu",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is an API?",
+        "response": "An Application Programming Interface (API) is a set of rules and protocols that allows different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 57
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a program that translates source code written in one programming language into machine-readable object cod",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 50
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are two common techniques used in machine learning to prevent overfitting of models.\n\nL1 regula",
+        "reward": 0.8,
+        "feedback": "Keyword 'lasso' found but NLI uncertain (e=0.00,c=0.00). L1 uses absolute values",
+        "n_words": 54
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function is used in neural networks to introduce non-linearity into the model's decision-making process. W",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.01,c=0.00). Activation functio",
+        "n_words": 52
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named storage location used to hold and manipulate data values during the execution of a",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock is a situation that occurs when multiple processes or threads in an operating system are waiting for each oth",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.98 (contra=0.00, neutral=0.02)",
+        "n_words": 54
+      }
+    ]
+  },
+  {
+    "step": 320,
+    "avg_reward": 0.8545,
+    "exact_match": 0.6364,
+    "avg_resp_len": 52.8,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1,
+    "n_eval": 22,
+    "eval_time_s": 200.5,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language and it is the standard markup language used to create web pages. It allows you",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends tow",
+        "reward": 0.8,
+        "feedback": "Keyword 'upper bound' found but NLI uncertain (e=0.00,c=0.01). Big O notation de",
+        "n_words": 60
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is an interpreted high-level programming language that was first released in 1991. It is named after the British ",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important metrics used in evaluating the performance of machine learning models, particular",
+        "reward": 0.8,
+        "feedback": "Keyword 'positive' found but NLI uncertain (e=0.06,c=0.02). Precision = true pos",
+        "n_words": 50
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a fundamental concept in computer science and mathematics that addresses the theoretical limitati",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.20). Need: ['undecidable', 'cannot determine', '",
+        "n_words": 53
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792 kilometers per second (or about 186,282 miles per second). This ",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 44
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a collection of data that can be organized and accessed efficiently using structured query language (SQL) ",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory used to store data and instructions that the CPU ca",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 47
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A transformer model is a type of neural network architecture that has become widely used for tasks such as natural langu",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.00). Need: ['attention', 'self-attention', 'self",
+        "n_words": 52
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or formula for solving a problem or performing a computation. It's like a recip",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 56
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science where a function calls itself to solve a problem. Here's how it w",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function serves as a key component in many machine learning and statistical models used for training algorithms t",
+        "reward": 0.8,
+        "feedback": "Keyword 'actual' found but NLI uncertain (e=0.00,c=0.08). A loss function measur",
+        "n_words": 59
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which plants and other organisms use sunlight to synthesize food from carbon dioxide an",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 53
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is a fundamental operation in computer science and data management that involves arranging items or elements in ",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a computer software that manages hardware resources and provides common services for compute",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 54
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental programming technique where a function calls itself repeatedly until it reaches a base case o",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is an API?",
+        "response": "An API (Application Programming Interface) is a set of rules and protocols that allows different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 55
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a computer program that translates source code written in one programming language into another programmin",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 53
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are two common techniques used in machine learning to prevent overfitting of models. Here's how",
+        "reward": 0.8,
+        "feedback": "Keyword 'lasso' found but NLI uncertain (e=0.00,c=0.01). L1 uses absolute values",
+        "n_words": 42
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function is used in artificial neural networks to introduce non-linearity into the model. The purpose of u",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.01,c=0.00). Activation functio",
+        "n_words": 57
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "A variable in programming is a named location that stores and holds data values that can be changed during the execution",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are waiting for each other to release resources they need, and no process c",
+        "reward": 0.8,
+        "feedback": "Keyword 'wait' found but NLI uncertain (e=0.01,c=0.02). Deadlock occurs when pro",
+        "n_words": 56
+      }
+    ]
+  },
+  {
+    "step": 360,
+    "avg_reward": 0.8909,
+    "exact_match": 0.6364,
+    "avg_resp_len": 52.5,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.0636,
+    "n_eval": 22,
+    "eval_time_s": 182.9,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for Hypertext Markup Language. It is the standard markup language used to create web pages and web applicati",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends tow",
+        "reward": 0.8,
+        "feedback": "Keyword 'complexity' found but NLI uncertain (e=0.00,c=0.00). Big O notation des",
+        "n_words": 49
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level programming language that is widely used for various applications including web development, data",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and Recall are two important metrics used in evaluating the performance of classification models in machine le",
+        "reward": 0.8,
+        "feedback": "Keyword 'positive' found but NLI uncertain (e=0.16,c=0.26). Precision = true pos",
+        "n_words": 53
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is an undecidable decision problem in computer science and mathematical logic. It was first introduc",
+        "reward": 0.8,
+        "feedback": "Keyword 'undecidable' found but NLI uncertain (e=0.00,c=0.01). The halting probl",
+        "n_words": 47
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second (or about 670,616,629 miles per hour). Thi",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 37
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a collection of data that is organized and stored in a structured format to support efficient retrieval an",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory used to store data temporarily while the system is ",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A Transformer model is a type of neural network architecture that was introduced as part of the GPT (Generative Pre-trai",
+        "reward": 0.8,
+        "feedback": "Keyword 'attention' found but NLI uncertain (e=0.01,c=0.00). Transformers use se",
+        "n_words": 51
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or set of rules to solve a problem or accomplish a specific task. It can be tho",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 54
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science where a function calls itself repeatedly until it reaches a base ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function is used in machine learning and statistics to quantify how well a model's predictions match the actual d",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.72). A loss function measures the error between",
+        "n_words": 61
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize nutrients from c",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 59
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging items in a specific order. The most common types of orders are:\n\n1. Ascending order:",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a software program that manages computer hardware and software resources, providing common s",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 58
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental programming technique in which a function or process calls itself repeatedly until it reaches",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is an API?",
+        "response": "An Application Programming Interface (API) is a set of rules and protocols that allows different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 54
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a program that translates source code written in one programming language into another programming languag",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 53
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are two common techniques used in machine learning to prevent overfitting of models.\n\n**L1 Regu",
+        "reward": 0.8,
+        "feedback": "Keyword 'absolute' found but NLI uncertain (e=0.00,c=0.00). L1 uses absolute val",
+        "n_words": 42
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function in machine learning and neural networks serves several important purposes:\n\n1. Non-linearity: Mos",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.01,c=0.00). Activation functio",
+        "n_words": 47
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "A variable in programming is a named storage location that holds data values that can change during the execution of a p",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are waiting for each other to release resources that they need, but no proc",
+        "reward": 0.8,
+        "feedback": "Keyword 'wait' found but NLI uncertain (e=0.03,c=0.00). Deadlock occurs when pro",
+        "n_words": 58
+      }
+    ]
+  },
+  {
+    "step": 400,
+    "avg_reward": 0.8091,
+    "exact_match": 0.5909,
+    "avg_resp_len": 49.8,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1454,
+    "n_eval": 22,
+    "eval_time_s": 167.6,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages and other hyperme",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool used to describe the performance or complexity of an algorithm. Specifically, it h",
+        "reward": 0.8,
+        "feedback": "Keyword 'complexity' found but NLI uncertain (e=0.00,c=0.00). Big O notation des",
+        "n_words": 56
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is an interpreted high-level programming language designed to be easy for beginners while still being powerful en",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important evaluation metrics in machine learning and information retrieval tasks. They meas",
+        "reward": 0.8,
+        "feedback": "Keyword 'positive' found but NLI uncertain (e=0.13,c=0.39). Precision = true pos",
+        "n_words": 53
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a famous unsolved problem in computer science and mathematics that was posed by Alan Turing in 19",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.99). The halting problem is undecidable: no alg",
+        "n_words": 52
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792 kilometers per second (km/s), or about 670,616,629 miles per hou",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 37
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a structured collection of data that can be accessed and managed efficiently using specialized software pr",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory.",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A Transformer model is an architecture used in natural language processing (NLP) that has been shown to be very effectiv",
+        "reward": 0.8,
+        "feedback": "Keyword 'attention' found but NLI uncertain (e=0.00,c=0.00). Transformers use se",
+        "n_words": 51
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a well-defined procedure or set of rules to solve a specific problem or perform a particular task. It's ",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 50
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science and programming where a function calls itself to solve a problem ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function serves as a critical component in machine learning algorithms and statistical modeling. Its primary purp",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.99). A loss function measures the error between",
+        "n_words": 54
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which plants and other organisms use light energy to convert carbon dioxide from the at",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['sunlight']). Response: 'Photosynthesis is th",
+        "n_words": 54
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging items in a specific order, such as alphabetical or numerical order. The most common ",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a software program that manages computer hardware and software resources, providing common s",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 52
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental programming technique where a function calls itself repeatedly until it reaches a base case (",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is an API?",
+        "response": "An Application Programming Interface (API) is a set of rules and protocols that enables different software applications ",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 54
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a program that translates source code written in one programming language into another language, often mac",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 52
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are both techniques used to prevent overfitting in machine learning models, but they achieve th",
+        "reward": 0.8,
+        "feedback": "Keyword 'absolute' found but NLI uncertain (e=0.00,c=0.10). L1 uses absolute val",
+        "n_words": 47
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions play a crucial role in neural networks and machine learning models. Their primary purpose is to int",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.11,c=0.00). Activation functio",
+        "n_words": 53
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "A variable in programming is a named storage location used to store and manipulate data that can change during the execu",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 61
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "In computer science, particularly within the field of operating system theory, a deadlock occurs when two or more proces",
+        "reward": 0.8,
+        "feedback": "Keyword 'wait' found but NLI uncertain (e=0.02,c=0.01). Deadlock occurs when pro",
+        "n_words": 54
+      }
+    ]
+  },
+  {
+    "step": 440,
+    "avg_reward": 0.8727,
+    "exact_match": 0.7273,
+    "avg_resp_len": 51.0,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.0818,
+    "n_eval": 22,
+    "eval_time_s": 136.2,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language and it is used to create documents on the World Wide Web. It's an important pa",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends tow",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.96). Big O notation describes the upper bound o",
+        "n_words": 60
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level programming language that was first released in 1991 by Guido van Rossum and later developed by t",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important metrics used in machine learning and information retrieval to evaluate the perfor",
+        "reward": 0.8,
+        "feedback": "Keyword 'positive' found but NLI uncertain (e=0.02,c=0.01). Precision = true pos",
+        "n_words": 52
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a fundamental undecidable problem in computer science and mathematics that was first posed by Ala",
+        "reward": 0.8,
+        "feedback": "Keyword 'undecidable' found but NLI uncertain (e=0.23,c=0.11). The halting probl",
+        "n_words": 49
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s). This constant is denoted by the let",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 43
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a structured collection of data that is organized and stored in a computer system for efficient storage, r",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory.",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A transformer model is a type of neural network architecture that has become very popular for tasks involving natural la",
+        "reward": 0.8,
+        "feedback": "Keyword 'attention' found but NLI uncertain (e=0.05,c=0.08). Transformers use se",
+        "n_words": 55
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a well-defined procedure or set of instructions for solving a problem or performing a task. It is a fini",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 57
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a powerful technique in computer science where a function calls itself repeatedly until it reaches a base c",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function in machine learning serves as a measure of how well the model's predictions match the true labels of the",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.09,c=0.14). Need: ['error', 'difference', 'predicted', ",
+        "n_words": 61
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which green plants and other organisms use sunlight to synthesize nutrients from carbon",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 46
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging items in a specific order, such as ascending or descending. There are several method",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a software program that manages computer hardware resources and provides common services for",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 53
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental programming technique where a function calls itself repeatedly until it reaches a base case (",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is an API?",
+        "response": "An Application Programming Interface (API) is a set of rules and protocols that allow different software applications to",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 57
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a type of program that translates source code written in one programming language into machine code or ano",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 56
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are both techniques used in machine learning to prevent overfitting and improve model generaliz",
+        "reward": 0.8,
+        "feedback": "Keyword 'absolute' found but NLI uncertain (e=0.00,c=0.00). L1 uses absolute val",
+        "n_words": 48
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions in neural networks serve several important purposes:\n\n1. Non-linearity: Activation functions introd",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.86 (contra=0.00, neutral=0.14)",
+        "n_words": 50
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named location within the memory of a computer system that holds data values or referenc",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes become locked up, waiting for each other to release resources that they req",
+        "reward": 1.0,
+        "feedback": "Correct! keyword 'wait' + NLI=0.43",
+        "n_words": 60
+      }
+    ]
+  },
+  {
+    "step": 480,
+    "avg_reward": 0.8273,
+    "exact_match": 0.6818,
+    "avg_resp_len": 52.9,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1272,
+    "n_eval": 22,
+    "eval_time_s": 95.0,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages and other informa",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is primarily used to describe the complexity of an algorithm or function in terms of its input size. It p",
+        "reward": 0.8,
+        "feedback": "Keyword 'complexity' found but NLI uncertain (e=0.00,c=0.00). Big O notation des",
+        "n_words": 57
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a popular high-level programming language known for its simplicity and readability. It was designed to be acce",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important metrics used in evaluating the performance of machine learning models, particular",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.93). Precision = true positives / predicted pos",
+        "n_words": 50
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a fundamental concept in computer science and theoretical mathematics that states it is impossibl",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.00). Need: ['undecidable', 'cannot determine', '",
+        "n_words": 55
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s). This value is known as the speed of",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database (DB) is a collection of organized information that can be accessed and updated efficiently. It stores data in",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory used to store data that the CPU (Central Processing",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 33
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A transformer model is a type of neural network architecture that has revolutionized natural language processing (NLP) a",
+        "reward": 0.8,
+        "feedback": "Keyword 'attention' found but NLI uncertain (e=0.01,c=0.01). Transformers use se",
+        "n_words": 55
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or formula for solving a problem or performing a task. It's a set of instructio",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 53
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science and programming where a function calls itself repeatedly until it",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function is a mathematical representation used in machine learning to quantify how well a model's predictions mat",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.98 (contra=0.00, neutral=0.02)",
+        "n_words": 59
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which plants and some other organisms use light energy to synthesize foods (energy-rich",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['sunlight']). Response: 'Photosynthesis is th",
+        "n_words": 49
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging items in a specific order. There are several ways to sort data, and each has its own",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a software program that manages computer hardware and software resources and provides common",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 56
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental concept in computer science and mathematics that involves a function calling itself repeatedl",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is an API?",
+        "response": "An Application Programming Interface (API) is a set of rules and protocols that allows different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 56
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a program that translates source code written in a high-level programming language into machine code or an",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 54
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 regularization (also known as Lasso regularization) and L2 regularization (also known as Ridge regression) are both t",
+        "reward": 0.8,
+        "feedback": "Keyword 'lasso' found but NLI uncertain (e=0.00,c=0.00). L1 uses absolute values",
+        "n_words": 44
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "The purpose of an activation function in machine learning models, particularly neural networks, is to introduce non-line",
+        "reward": 0.8,
+        "feedback": "Keyword 'nonlinear' found but NLI uncertain (e=0.00,c=0.00). Activation function",
+        "n_words": 52
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named storage location used to hold a value that can be changed or modified during the e",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "In the context of computer science, particularly in operating systems and concurrent programming, a deadlock occurs when",
+        "reward": 1.0,
+        "feedback": "Correct! keyword 'wait' + NLI=0.35",
+        "n_words": 59
+      }
+    ]
+  },
+  {
+    "step": 520,
+    "avg_reward": 0.7818,
+    "exact_match": 0.6364,
+    "avg_resp_len": 50.1,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1727,
+    "n_eval": 22,
+    "eval_time_s": 97.0,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages and other hyperte",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends tow",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.22,c=0.02). Need: ['complexity', 'worst case', 'upper b",
+        "n_words": 60
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level, interpreted programming language that was designed to be easy to read and write, making it acces",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important evaluation metrics used in various fields, including computer vision, machine lea",
+        "reward": 0.8,
+        "feedback": "Keyword 'positive' found but NLI uncertain (e=0.19,c=0.67). Precision = true pos",
+        "n_words": 47
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is an undecidable problem in computer science and mathematics. It states that there is no general al",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=1.00 (contra=0.00, neutral=0.00)",
+        "n_words": 50
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s). This constant, denoted by the lette",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 43
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a structured collection of data that can be accessed and manipulated by a computer program or application.",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory.",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A Transformer model is an architecture used primarily for natural language processing (NLP) tasks such as translation an",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.00). Need: ['attention', 'self-attention', 'self",
+        "n_words": 47
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a well-defined procedure or set of rules to be followed in order to solve a particular problem or accomp",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['step']). Response: 'An algorithm is a well-d",
+        "n_words": 58
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science where a function calls itself again and again until it reaches a ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function serves as an evaluation metric for how well a model's predictions match the actual data it was trained o",
+        "reward": 0.8,
+        "feedback": "Keyword 'actual' found but NLI uncertain (e=0.01,c=0.13). A loss function measur",
+        "n_words": 57
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which plants and certain other organisms use light energy to synthesize nutrients from ",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['sunlight']). Response: 'Photosynthesis is th",
+        "n_words": 49
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging elements in a specific order, such as ascending or descending. Here's how it typical",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 48
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An Operating System (OS) is the core software that manages computer hardware and software resources, providing a common ",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 53
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental concept in computer science and mathematics that involves defining something in terms of itse",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is an API?",
+        "response": "An Application Programming Interface (API) is a set of rules and protocols that allows different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 55
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a computer program that translates source code written in one programming language into another programmin",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 55
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are both techniques used in machine learning to prevent overfitting of models. They add penalty",
+        "reward": 0.8,
+        "feedback": "Keyword 'lasso' found but NLI uncertain (e=0.00,c=0.00). L1 uses absolute values",
+        "n_words": 48
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function in machine learning and artificial neural networks serves several key purposes:\n\n1. **Non-lineari",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.00,c=0.00). Activation functio",
+        "n_words": 45
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named location within a program where data can be stored and manipulated during the exec",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are waiting for each other to release resources that they require. This sit",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.99 (contra=0.00, neutral=0.01)",
+        "n_words": 57
+      }
+    ]
+  },
+  {
+    "step": 560,
+    "avg_reward": 0.8182,
+    "exact_match": 0.6364,
+    "avg_resp_len": 50.6,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1363,
+    "n_eval": 22,
+    "eval_time_s": 97.0,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages and other interac",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is used to describe the performance or complexity of an algorithm in terms of the input size. Specificall",
+        "reward": 0.8,
+        "feedback": "Keyword 'complexity' found but NLI uncertain (e=0.00,c=0.00). Big O notation des",
+        "n_words": 58
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a popular high-level programming language known for its readability and ease of use. Here are some key points ",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important performance metrics used in evaluating the quality of machine learning models or ",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.99). Precision = true positives / predicted pos",
+        "n_words": 50
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a fundamental concept in computer science and theoretical mathematics that addresses whether it's",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=1.00). The halting problem is undecidable: no alg",
+        "n_words": 52
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s). This speed is considered to be the ",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 46
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a collection of related data stored in electronic form that can be accessed and managed efficiently by use",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory used to store data that the CPU can access quickly ",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 26
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A Transformer model is a type of neural network architecture used primarily for natural language processing (NLP) tasks.",
+        "reward": 0.8,
+        "feedback": "Keyword 'attention' found but NLI uncertain (e=0.00,c=0.00). Transformers use se",
+        "n_words": 46
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a well-defined procedure or set of rules that specifies a step-by-step solution to a problem or task. It",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 52
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science where a function or procedure calls itself repeatedly until it re",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function is a key component in machine learning algorithms used for training models and making predictions. Its p",
+        "reward": 0.8,
+        "feedback": "Keyword 'difference' found but NLI uncertain (e=0.01,c=0.01). A loss function me",
+        "n_words": 56
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 49
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging items in a specific order or sequence. This can be done using various methods depend",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a software that manages computer hardware and software resources, providing common services ",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 50
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental concept in computer science and mathematics that involves solving problems by breaking them d",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['itself']). Response: 'Recursion is a fundame",
+        "n_words": 52
+      },
+      {
+        "question": "What is an API?",
+        "response": "An Application Programming Interface (API) is a set of rules and protocols that allow different software applications to",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 54
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a program that translates source code written in one programming language into another programming languag",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 54
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 (Least Absolute Shrinkage and Selection Operator) and L2 (Least Squares) are both techniques used in machine learning",
+        "reward": 0.8,
+        "feedback": "Keyword 'absolute' found but NLI uncertain (e=0.00,c=0.01). L1 uses absolute val",
+        "n_words": 42
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function in machine learning and artificial neural networks serves several purposes:\n\n1. Non-linearity: Ac",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.00,c=0.00). Activation functio",
+        "n_words": 53
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "A variable in programming is a named storage location that holds a value which can be changed during the execution of a ",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are blocked forever due to a circular wait for resources among them. This h",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.99 (contra=0.00, neutral=0.01)",
+        "n_words": 52
+      }
+    ]
+  },
+  {
+    "step": 600,
+    "avg_reward": 0.8636,
+    "exact_match": 0.6818,
+    "avg_resp_len": 52.9,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.0909,
+    "n_eval": 22,
+    "eval_time_s": 98.7,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages and other informa",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool used in computer science to describe the performance or complexity of an algorithm",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.97 (contra=0.01, neutral=0.02)",
+        "n_words": 53
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level, interpreted programming language known for its clear syntax and ease of use. It was designed to ",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important metrics used in evaluating the performance of classification models, particularly",
+        "reward": 0.8,
+        "feedback": "Keyword 'positive' found but NLI uncertain (e=0.03,c=0.45). Precision = true pos",
+        "n_words": 48
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a fundamental concept in computer science and mathematics that deals with determining whether a s",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=1.00). The halting problem is undecidable: no alg",
+        "n_words": 57
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792 kilometers per second (km/s). This value is often denoted by the",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a structured collection of data that can be accessed and manipulated efficiently. Here are some key points",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of memory that can be accessed randomly, meaning you can read or write",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A transformer model is a type of neural network architecture used primarily for natural language processing tasks such a",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.00). Need: ['attention', 'self-attention', 'self",
+        "n_words": 49
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or set of rules to solve a problem or perform a computation. It's like a recipe",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 54
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science where a function calls itself repeatedly until it reaches a base ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function in machine learning serves as a measure of how well the model's predictions match the actual data. Its p",
+        "reward": 0.8,
+        "feedback": "Keyword 'error' found but NLI uncertain (e=0.00,c=0.00). A loss function measure",
+        "n_words": 58
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which green plants and some other organisms use sunlight to convert carbon dioxide and ",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 48
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging items in a specific order based on some criterion or attribute. There are several me",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 60
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a software program that manages computer hardware and software resources, providing common s",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 54
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental concept in computer science and mathematics where a function or algorithm calls itself repeat",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is an API?",
+        "response": "An API (Application Programming Interface) is a set of rules and protocols that allows different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 58
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a software tool that translates source code written in a high-level programming language into machine code",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 53
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 (Least Absolute Shrinkage and Selection Operator) and L2 (Least Squares) regularizers are two common techniques used ",
+        "reward": 0.8,
+        "feedback": "Keyword 'absolute' found but NLI uncertain (e=0.00,c=0.00). L1 uses absolute val",
+        "n_words": 46
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function in machine learning and neural networks serves several key purposes:\n\n1. Non-linearity: Activatio",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.01,c=0.00). Activation functio",
+        "n_words": 50
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named storage location that holds data values. Here are some key points about variables:",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock is a situation in computer science where multiple processes or threads are unable to proceed because each is ",
+        "reward": 0.8,
+        "feedback": "Keyword 'wait' found but NLI uncertain (e=0.11,c=0.32). Deadlock occurs when pro",
+        "n_words": 55
+      }
+    ]
+  },
+  {
+    "step": 640,
+    "avg_reward": 0.7818,
+    "exact_match": 0.6364,
+    "avg_resp_len": 53.5,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1727,
+    "n_eval": 22,
+    "eval_time_s": 1301.2,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It's the standard markup language used to create web pages and websites. Here",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends tow",
+        "reward": 0.8,
+        "feedback": "Keyword 'upper bound' found but NLI uncertain (e=0.00,c=0.00). Big O notation de",
+        "n_words": 61
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level programming language that is widely used for various applications such as web development, data a",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important metrics used in evaluating the performance of classification models in machine le",
+        "reward": 0.8,
+        "feedback": "Keyword 'positive' found but NLI uncertain (e=0.09,c=0.04). Precision = true pos",
+        "n_words": 48
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a fundamental concept in computer science and mathematics that deals with determining whether an ",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=1.00). The halting problem is undecidable: no alg",
+        "n_words": 54
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s). This value is often expressed more ",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 37
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a structured collection of data that can be accessed and manipulated by programs or users. It allows for e",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of volatile memory used in computers and other electronic devices to s",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A Transformer model is a type of neural network architecture used for tasks that involve sequential data processing, suc",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.99). Transformers use self-attention mechanisms",
+        "n_words": 55
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a well-defined procedure or set of rules to solve a specific problem or accomplish a particular task. It",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['step']). Response: 'An algorithm is a well-d",
+        "n_words": 56
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science where a function calls itself repeatedly until it reaches a base ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function in machine learning and statistical modeling is used to quantify how well a model's predictions match th",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.94). A loss function measures the error between",
+        "n_words": 56
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is a process used by plants and some other organisms to convert light energy into chemical energy that ca",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 54
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging items in a specific order, such as alphabetical or numerical order. Here's how it ty",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a crucial software program that manages computer hardware and software resources, providing ",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 52
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental programming technique where a function calls itself repeatedly until it reaches a base case t",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is an API?",
+        "response": "An Application Programming Interface (API) is a set of rules and protocols for building software applications that allow",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 57
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a type of computer program that translates source code written in one programming language into another, u",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 57
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 (Lasso) and L2 (Ridge) regularization are both techniques used in machine learning to prevent overfitting by penalizi",
+        "reward": 0.8,
+        "feedback": "Keyword 'lasso' found but NLI uncertain (e=0.00,c=0.01). L1 uses absolute values",
+        "n_words": 39
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function in machine learning serves several purposes:\n\n1. Non-linearity: The main reason for using activat",
+        "reward": 0.8,
+        "feedback": "Keyword 'nonlinear' found but NLI uncertain (e=0.00,c=0.00). Activation function",
+        "n_words": 53
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named storage location used to store values that can be changed during the execution of ",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock is a situation in which multiple processes or threads are waiting for each other to release resources that th",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.99 (contra=0.00, neutral=0.01)",
+        "n_words": 61
+      }
+    ]
+  },
+  {
+    "step": 680,
+    "avg_reward": 0.7909,
+    "exact_match": 0.6818,
+    "avg_resp_len": 53.2,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1636,
+    "n_eval": 22,
+    "eval_time_s": 102.6,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for Hypertext Markup Language and it's the standard markup language used to create web pages. It allows deve",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool used to describe the performance or complexity of an algorithm. It provides a way ",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.99 (contra=0.00, neutral=0.01)",
+        "n_words": 57
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level programming language that was designed to be easy to read and write. It has been used for many ye",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important metrics used in evaluating the performance of classification models in machine le",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.94). Precision = true positives / predicted pos",
+        "n_words": 53
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a fundamental concept in computer science and mathematical logic that states it is impossible to ",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=1.00). The halting problem is undecidable: no alg",
+        "n_words": 54
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792 kilometers per second (km/s), or about 670,616,629 miles per hou",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 39
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a structured collection of data that can be accessed and manipulated according to specific rules or constr",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is the temporary storage used by computers to hold data that the CPU needs acces",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A Transformer model is a type of neural network architecture that has been developed specifically to handle tasks involv",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.01). Need: ['attention', 'self-attention', 'self",
+        "n_words": 53
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a well-defined procedure or set of rules to solve a specific problem or perform a particular task. It's ",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 54
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science where a function calls itself repeatedly to solve a problem. The ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function in machine learning and statistics serves as a measure of how well a model's predictions match the actua",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=1.00). A loss function measures the error between",
+        "n_words": 57
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods from carbo",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 54
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging elements in a specific order. This can be done based on various criteria such as alp",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An Operating System (OS) is the software that manages computer hardware and software resources to provide common service",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 56
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental concept in computer science and mathematics where a function calls itself repeatedly until it",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is an API?",
+        "response": "An API (Application Programming Interface) is a set of rules and protocols that allows different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 55
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a program that translates source code written in a high-level programming language into machine code or an",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 53
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are both techniques used in machine learning to prevent overfitting of models. However, they di",
+        "reward": 0.8,
+        "feedback": "Keyword 'absolute' found but NLI uncertain (e=0.00,c=0.00). L1 uses absolute val",
+        "n_words": 44
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions in neural networks serve several important purposes:\n\n1. **Non-linearity**: They introduce non-line",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.05,c=0.00). Activation functio",
+        "n_words": 48
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named location within the program's memory that holds a value or data. It allows you to ",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are unable to proceed because each is waiting for the other to release reso",
+        "reward": 0.8,
+        "feedback": "Keyword 'wait' found but NLI uncertain (e=0.20,c=0.09). Deadlock occurs when pro",
+        "n_words": 56
+      }
+    ]
+  },
+  {
+    "step": 720,
+    "avg_reward": 0.8273,
+    "exact_match": 0.6818,
+    "avg_resp_len": 52.8,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1272,
+    "n_eval": 22,
+    "eval_time_s": 105.6,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages and other informa",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical notation that describes the performance or complexity of an algorithm in terms of input",
+        "reward": 0.8,
+        "feedback": "Keyword 'complexity' found but NLI uncertain (e=0.00,c=0.00). Big O notation des",
+        "n_words": 56
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is a high-level programming language known for its readability and ease of use. It was created in the late 1980s ",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important metrics used in evaluating the performance of classification models in machine le",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.84 (contra=0.01, neutral=0.14)",
+        "n_words": 56
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is an unsolvable decision problem in computer science and mathematics. It was first introduced by Al",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.77). The halting problem is undecidable: no alg",
+        "n_words": 52
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792 kilometers per second (km/s), or about 186,282 miles per second ",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 33
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database (DB) is a structured collection of data that is organized and managed to store, retrieve, update, and delete ",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory that allows data to be read and written to anywhere",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A transformer model is a type of neural network architecture that was introduced by researchers from the University of A",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.00). Need: ['attention', 'self-attention', 'self",
+        "n_words": 55
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or formula for solving a problem or performing a computation. It's essentially ",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 55
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a programming technique where a function calls itself again and again until it reaches a base case (a condi",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 48
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "A loss function in machine learning serves as a measure of how well a model's predictions match the actual data. The pri",
+        "reward": 0.8,
+        "feedback": "Keyword 'predicted' found but NLI uncertain (e=0.00,c=0.00). A loss function mea",
+        "n_words": 53
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['sunlight']). Response: 'Photosynthesis is th",
+        "n_words": 52
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging elements in a specific order. There are various types of sorting algorithms that can",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a software program that manages computer hardware resources and provides common services for",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 56
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a fundamental concept in computer science and mathematics where a function calls itself repeatedly until it",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is an API?",
+        "response": "An API (Application Programming Interface) is a set of rules and protocols that allows different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 57
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a program that translates high-level programming languages into machine language (or object code) in order",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 54
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 (Least Absolute Shrinkage and Selection Operator) and L2 (Least Squares) regularization are two common techniques use",
+        "reward": 0.8,
+        "feedback": "Keyword 'absolute' found but NLI uncertain (e=0.00,c=0.00). L1 uses absolute val",
+        "n_words": 42
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "The purpose of an activation function in neural networks is to introduce non-linearity into the model. Neural networks w",
+        "reward": 1.0,
+        "feedback": "Correct! keyword 'nonlinear' + NLI=0.33",
+        "n_words": 57
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named storage location that holds data values during the execution of a program. Variabl",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are waiting for each other to release resources that they need to proceed. ",
+        "reward": 0.8,
+        "feedback": "Keyword 'wait' found but NLI uncertain (e=0.03,c=0.00). Deadlock occurs when pro",
+        "n_words": 56
+      }
+    ]
+  },
+  {
+    "step": 720,
+    "avg_reward": 0.7909,
+    "exact_match": 0.6818,
+    "avg_resp_len": 50.0,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1636,
+    "n_eval": 22,
+    "eval_time_s": 104.2,
+    "per_question": [
+      {
+        "question": "What is HTML?",
+        "response": "HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages and other hyperte",
+        "reward": 1.0,
+        "feedback": "Correct! 'markup' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends tow",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.00). Need: ['complexity', 'worst case', 'upper b",
+        "n_words": 57
+      },
+      {
+        "question": "What is Python?",
+        "response": "Python is an interpreted high-level programming language designed to be easy to read and write, with syntax that allows ",
+        "reward": 1.0,
+        "feedback": "Correct! 'program' found.",
+        "n_words": 46
+      },
+      {
+        "question": "What is the difference between precision and recall?",
+        "response": "Precision and recall are two important metrics used in evaluating the performance of classification models, particularly",
+        "reward": 0.8,
+        "feedback": "Keyword 'positive' found but NLI uncertain (e=0.12,c=0.37). Precision = true pos",
+        "n_words": 55
+      },
+      {
+        "question": "What is the halting problem?",
+        "response": "The Halting Problem is a famous unsolvable problem in computer science and mathematics. It was first introduced by Alan ",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.01,c=0.00). Need: ['undecidable', 'cannot determine', '",
+        "n_words": 48
+      },
+      {
+        "question": "What is the speed of light?",
+        "response": "The speed of light in a vacuum is approximately 299,792 kilometers per second (km/s), or about 186,282 miles per second.",
+        "reward": 1.0,
+        "feedback": "Correct! '299' found.",
+        "n_words": 41
+      },
+      {
+        "question": "What is a database?",
+        "response": "A database is a collection of related data that can be accessed and manipulated by multiple users or applications. It is",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory.",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is a transformer model in deep learning?",
+        "response": "A transformer model is a type of neural network architecture that has been widely used for tasks such as language transl",
+        "reward": 0.0,
+        "feedback": "Missing concept (NLI e=0.00,c=0.00). Need: ['attention', 'self-attention', 'self",
+        "n_words": 52
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or set of instructions designed to solve a specific problem or accomplish a par",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 49
+      },
+      {
+        "question": "How does recursion work in programming?",
+        "response": "Recursion is a fundamental concept in computer science where a function calls itself repeatedly until it reaches a base ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is the purpose of a loss function?",
+        "response": "The purpose of a loss function in machine learning and statistics is to measure how well a model's predictions match the",
+        "reward": 0.0,
+        "feedback": "Contradicts answer (NLI contra=0.95). A loss function measures the error between",
+        "n_words": 57
+      },
+      {
+        "question": "What is photosynthesis?",
+        "response": "Photosynthesis is a process used by plants and certain bacteria to convert light energy into chemical energy stored in g",
+        "reward": 1.0,
+        "feedback": "Correct! 'sunlight' found.",
+        "n_words": 53
+      },
+      {
+        "question": "How does sorting work?",
+        "response": "Sorting is the process of arranging items in a specific order or sequence. There are many different types of sorting alg",
+        "reward": 1.0,
+        "feedback": "Correct! 'order' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is an OS?",
+        "response": "An operating system (OS) is a critical software component that manages computer hardware and software resources, providi",
+        "reward": 1.0,
+        "feedback": "Correct! 'system' found.",
+        "n_words": 57
+      },
+      {
+        "question": "Explain the concept of recursion.",
+        "response": "Recursion is a programming technique where a function calls itself repeatedly until it reaches a base case (a condition ",
+        "reward": 1.0,
+        "feedback": "Correct! 'itself' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is an API?",
+        "response": "An API stands for Application Programming Interface and it's a set of rules that allow different software applications t",
+        "reward": 1.0,
+        "feedback": "Correct! 'interface' found.",
+        "n_words": 55
+      },
+      {
+        "question": "How does a compiler work?",
+        "response": "A compiler is a program that translates source code written in one programming language into another programming languag",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 55
+      },
+      {
+        "question": "Explain the difference between L1 and L2 regularization.",
+        "response": "L1 and L2 regularization are both techniques used in machine learning to prevent overfitting. They add penalty terms to ",
+        "reward": 0.8,
+        "feedback": "Keyword 'lasso' found but NLI uncertain (e=0.00,c=0.01). L1 uses absolute values",
+        "n_words": 47
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function in neural networks serves several important purposes:\n\n1. Non-linearity: Most real-world problems",
+        "reward": 0.8,
+        "feedback": "Keyword 'non-linear' found but NLI uncertain (e=0.01,c=0.01). Activation functio",
+        "n_words": 48
+      },
+      {
+        "question": "What is a variable in programming?",
+        "response": "In programming, a variable is a named storage location that holds data which can be changed during the execution of a pr",
+        "reward": 1.0,
+        "feedback": "Correct! 'valu' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are waiting for each other to release resources they need, creating an infi",
+        "reward": 1.0,
+        "feedback": "Correct! NLI entailment=0.98 (contra=0.00, neutral=0.02)",
+        "n_words": 53
+      }
+    ]
+  }
+]
