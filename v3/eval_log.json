@@ -1,0 +1,2060 @@
+[
+  {
+    "step": 0,
+    "avg_reward": 0.8947,
+    "exact_match": 0.8947,
+    "avg_resp_len": 52.7,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": 0.0,
+    "n_eval": 19,
+    "eval_time_s": 80.4,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database is a collection of organized data that can be searched and retrieved quickly using specific queries. The prim",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 60
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory used to store data temporarily while the computer i",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital city of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 7
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "The purpose of an activation function in machine learning models is to introduce non-linearity into the model's decision",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "In computer science, both stacks and queues are abstract data types (ADTs) that allow you to store and manipulate data i",
+        "reward": 1.0,
+        "feedback": "Correct! 'lifo' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "Merge sort has a time complexity of O(n log n), where n is the number of elements in the input array. This is because ea",
+        "reward": 1.0,
+        "feedback": "Correct! 'n log n' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is used to describe the performance or complexity of an algorithm in terms of the amount of time it takes",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 61
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem is a fundamental principle in distributed computing that describes the inherent trade-offs and conflicts",
+        "reward": 1.0,
+        "feedback": "Correct! 'consistency' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory. It is the primary memory used by computers to store data temporarily while they are",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation is an algorithm used in the field of artificial neural networks to train and optimize these models. It w",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['gradient']). Response: 'Backpropagation is a",
+        "n_words": 45
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting is a phenomenon in machine learning where a model learns the training data too well, to the point where it p",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or set of rules designed to solve a particular problem or perform a specific ta",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a program that translates source code written in one programming language into another form of computer-re",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "CPU stands for Central Processing Unit. It's the primary component of computers and servers responsible for executing in",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are blocked forever in an infinite wait for one of the other process's reso",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used in neural networks to prevent overfitting. Overfitting occurs when a model le",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "In Convolutional Neural Networks (CNNs), a convolution refers to the process of applying a small matrix called a kernel ",
+        "reward": 1.0,
+        "feedback": "Correct! 'filter' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient descent is an optimization algorithm used to find the minimum of a function. It's commonly used in machine lear",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of converting plain text (unencrypted data) into ciphertext (encrypted data). The purpose of e",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 56
+      }
+    ]
+  },
+  {
+    "step": 40,
+    "avg_reward": 0.8947,
+    "exact_match": 0.8947,
+    "avg_resp_len": 50.4,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": 0.0,
+    "n_eval": 19,
+    "eval_time_s": 79.7,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database is a structured collection of data that can be searched, sorted, and updated efficiently. It serves as a repo",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is the main component of computer systems used to store data temporarily while r",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions in neural networks serve several purposes:\n\n1. **Non-linearity**: They introduce non-linearities in",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 44
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "A stack is a data structure that follows the Last In First Out (LIFO) principle, meaning the last element added to the s",
+        "reward": 1.0,
+        "feedback": "Correct! 'fifo' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "Merge sort has a time complexity of O(n log n), where 'n' represents the number of elements in the array or list being s",
+        "reward": 1.0,
+        "feedback": "Correct! 'n log n' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is used to describe the performance or complexity of an algorithm in terms of the input size. It provides",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem (pronounced as \"CAP\") states that it's impossible to simultaneously achieve high consistency, availabili",
+        "reward": 1.0,
+        "feedback": "Correct! 'partition' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory (Random Accessibility, also known as volatile memory). It's an external storage devi",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation is an algorithm used for training artificial neural networks. It was first introduced in the 1970s and h",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['gradient']). Response: 'Backpropagation is a",
+        "n_words": 52
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting is a phenomenon that occurs in machine learning when a model learns the training data too well, to the point",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a finite sequence of well-defined instructions designed to solve a particular problem or perform a speci",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a computer program that translates source code written in one programming language into machine code (bina",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A CPU (Central Processing Unit) is the main component of a computer's central processing unit and is responsible for exe",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "In computer science, particularly in the field of operating systems, a deadlock occurs when multiple processes or thread",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used in neural networks that helps prevent overfitting. Overfitting occurs when a ",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "Convolutional Neural Networks (CNNs), also known as ConvNets, are a type of artificial neural network commonly used for ",
+        "reward": 1.0,
+        "feedback": "Correct! 'filter' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient Descent is an optimization algorithm used to find the minimum of a function, particularly in machine learning a",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of converting plain text into an encoded message using an algorithm to hide its contents from ",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 54
+      }
+    ]
+  },
+  {
+    "step": 80,
+    "avg_reward": 0.8421,
+    "exact_match": 0.8421,
+    "avg_resp_len": 51.7,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.0526,
+    "n_eval": 19,
+    "eval_time_s": 80.7,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database is a structured collection of data that can be accessed and manipulated according to specific rules or constr",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of memory used to store data temporarily that can be accessed randomly",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function in machine learning and neural networks serves several important purposes:\n\n1. **Non-linearity**:",
+        "reward": 1.0,
+        "feedback": "Correct! 'nonlinear' found.",
+        "n_words": 48
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "A stack and a queue are both linear data structures that store elements in a specific order. However, there are some key",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['fifo', 'lifo', 'first in first out', 'last i",
+        "n_words": 50
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "The time complexity of merge sort is O(n log n), where n is the number of elements in the input array or list.\n\nThis is ",
+        "reward": 1.0,
+        "feedback": "Correct! 'n log n' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends tow",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem is a fundamental principle in distributed computing that was introduced by Eric Brewer at Google. It sta",
+        "reward": 1.0,
+        "feedback": "Correct! 'consistency' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory (Random Access Memory). It is a type of computer memory that allows data to be store",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation (BP) is an algorithm used in artificial neural networks to compute the gradient of the loss function wit",
+        "reward": 1.0,
+        "feedback": "Correct! 'gradient' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting is a common problem in machine learning where a model learns the training data too well, to the point where ",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a set of well-defined instructions or steps designed to solve a specific problem or perform a particular",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a program that translates source code written in one programming language into another form of computer co",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A CPU (Central Processing Unit) is the main component of a computer that serves as the brain for all tasks and operation",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock is a situation that can occur when two or more processes (or threads) each hold another process's resource an",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used in machine learning and deep learning to prevent overfitting. The basic idea ",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "In Convolutional Neural Networks (CNNs), the term \"convolution\" refers to a mathematical operation that combines two fun",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['filter', 'kernel', 'sliding', 'feature map']",
+        "n_words": 52
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient Descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of s",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of converting plain text (unencrypted data) into ciphertext (encrypted data). This process can",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 55
+      }
+    ]
+  },
+  {
+    "step": 120,
+    "avg_reward": 0.9474,
+    "exact_match": 0.9474,
+    "avg_resp_len": 50.5,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": 0.0527,
+    "n_eval": 19,
+    "eval_time_s": 76.0,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database (DB) is a structured collection of data that can be searched, queried and updated efficiently. Databases are ",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory used to temporarily store data that the CPU can acc",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 43
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions in neural networks serve several important purposes:\n\n1. Non-linearity: Activation functions introd",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "A stack and a queue are both data structures used to store and manipulate collections of elements. However, they differ ",
+        "reward": 1.0,
+        "feedback": "Correct! 'fifo' found.",
+        "n_words": 44
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "The time complexity of Merge Sort is O(n log n), where n is the number of elements in the array being sorted. This means",
+        "reward": 1.0,
+        "feedback": "Correct! 'n log n' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends tow",
+        "reward": 1.0,
+        "feedback": "Correct! 'upper bound' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP Theorem is a fundamental principle in computer science that discusses the trade-offs between three key propertie",
+        "reward": 1.0,
+        "feedback": "Correct! 'partition' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory. It's a type of computer memory that allows data to be read and written to at any lo",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation is an algorithm used in artificial neural networks for training the model's parameters to minimize predi",
+        "reward": 1.0,
+        "feedback": "Correct! 'gradient' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting occurs in machine learning and statistics when a model learns the training data too well, to the point where",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a set of well-defined instructions or rules that can be followed to solve a problem or perform a specifi",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a computer program that translates source code written in one programming language into another form of co",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A CPU (Central Processing Unit) is the primary component of a computer that performs most of the computing tasks. It act",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are waiting for each other to release resources that they need, leading to ",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used in artificial neural networks to prevent overfitting. The main purpose of dro",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "In Convolutional Neural Networks (CNNs), a convolution refers to the process of applying a set of learnable filters or k",
+        "reward": 1.0,
+        "feedback": "Correct! 'filter' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient Descent is an optimization algorithm used in machine learning to find the minimum value of a function. Here's a",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of encoding information in such a way that only authorized parties can access it. It involves ",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 51
+      }
+    ]
+  },
+  {
+    "step": 160,
+    "avg_reward": 0.8947,
+    "exact_match": 0.8947,
+    "avg_resp_len": 49.2,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": 0.0,
+    "n_eval": 19,
+    "eval_time_s": 91.3,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database is a structured collection of data that can be accessed and managed efficiently by computers. It allows users",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory.",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function in machine learning and neural networks serves several important purposes:\n\n1. Non-linearity: Act",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "A stack and a queue are both fundamental data structures used in computer science to organize elements in a specific ord",
+        "reward": 1.0,
+        "feedback": "Correct! 'lifo' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "The time complexity of Merge Sort is O(n log n), where n is the number of elements in the array or list being sorted. Th",
+        "reward": 1.0,
+        "feedback": "Correct! 'n log n' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool used in computer science to describe the performance or complexity of an algorithm",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem, proposed by Eric Brewer at Stanford University's Computer Science Department, states that it is impossi",
+        "reward": 1.0,
+        "feedback": "Correct! 'consistency' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory that stores data temporarily while the computer is ",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation (BP) is an algorithm used in the context of artificial neural networks to calculate and adjust the weigh",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['gradient']). Response: 'Backpropagation (BP)",
+        "n_words": 52
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting in machine learning refers to the situation where a model learns not only from the underlying patterns in th",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or formula for solving a problem or performing a computation. It is a set of in",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a computer program that translates source code written in one programming language into another programmin",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A CPU, or Central Processing Unit, is the primary component of a computer's central processing unit. It is responsible f",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock is a situation where two or more processes are waiting for each other to release resources they need to proce",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used to prevent overfitting in neural networks. The main idea behind dropout is to",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "Convolution in Convolutional Neural Networks (CNNs) refers to the process of applying a small filter or kernel to an inp",
+        "reward": 1.0,
+        "feedback": "Correct! 'filter' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient descent is an optimization algorithm used in machine learning and statistical modeling to find the minimum of a",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of converting plain text into an unreadable format called ciphertext using an algorithm known ",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 58
+      }
+    ]
+  },
+  {
+    "step": 200,
+    "avg_reward": 0.8947,
+    "exact_match": 0.8947,
+    "avg_resp_len": 47.7,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": 0.0,
+    "n_eval": 19,
+    "eval_time_s": 73.1,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database is a structured collection of data that can be searched, updated and accessed efficiently. Databases are used",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is the primary component of computer systems that temporarily stores data and in",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 33
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function in artificial neural networks serves several key purposes:\n\n1. **Non-linearity**: Many real-world",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 48
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "A stack and a queue are both fundamental data structures in computer science, but they have distinct characteristics and",
+        "reward": 1.0,
+        "feedback": "Correct! 'lifo' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "The time complexity of Merge Sort is O(n log n).",
+        "reward": 1.0,
+        "feedback": "Correct! 'n log n' found.",
+        "n_words": 10
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends tow",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem is a fundamental principle in distributed computing that was first introduced by Eric Brewer at Google. ",
+        "reward": 1.0,
+        "feedback": "Correct! 'consistency' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory. It's a type of computer memory that allows data to be stored and retrieved at any l",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation is an algorithm used in artificial neural networks to train the weights of the network. It works by comp",
+        "reward": 1.0,
+        "feedback": "Correct! 'gradient' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting is a common problem in machine learning where a model learns too much from the training data and performs ex",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or formula for solving a problem or performing a computation. It's like a recip",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a computer program that translates source code written in a high-level programming language into machine c",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A CPU (Central Processing Unit) is the main component of a computer that serves as the brain or processor of the machine",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are waiting for each other to release resources that they need in order to ",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 62
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used in neural networks to prevent overfitting. The primary goal of dropout is to ",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "Convolutional Neural Networks (CNNs), also known as ConvNets or Convnets, are a type of artificial neural network that u",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['filter', 'kernel', 'sliding', 'feature map']",
+        "n_words": 50
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient Descent is an optimization algorithm used in machine learning and statistics to find the minimum value of a fun",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of converting plain text (readable data) into ciphertext (unreadable data) using an algorithm ",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 51
+      }
+    ]
+  },
+  {
+    "step": 240,
+    "avg_reward": 0.7895,
+    "exact_match": 0.7895,
+    "avg_resp_len": 49.5,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1052,
+    "n_eval": 19,
+    "eval_time_s": 72.0,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database is a collection of data that can be accessed and manipulated by one or more users. It provides a structured w",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory.",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function is used in artificial neural networks to introduce non-linearity into the model's decision-making",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "A stack and a queue are both data structures used in computer science to store and manage collections of items. However,",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['fifo', 'lifo', 'first in first out', 'last i",
+        "n_words": 53
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "The time complexity of Merge Sort is \\( O(n \\log n) \\).\n\nThis means that as the number of elements in the array (or list",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['n log n', 'nlogn', 'o(n log n)']). Response:",
+        "n_words": 50
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool that describes the performance or complexity of an algorithm in terms of input siz",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem is a fundamental principle in distributed computing that was proposed by Eric Brewer at Google in 2000. ",
+        "reward": 1.0,
+        "feedback": "Correct! 'partition' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory. It's a type of computer memory that can be accessed randomly, meaning you can read ",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation is a fundamental algorithm in the field of artificial neural networks and machine learning. It's used fo",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['gradient']). Response: 'Backpropagation is a",
+        "n_words": 52
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting in machine learning refers to a situation where a model learns too much from the training data and captures ",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a well-defined procedure or set of rules to solve a specific problem or accomplish a particular task. It",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a computer program that translates source code written in a high-level programming language into machine c",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A CPU (Central Processing Unit) is the brain of a computer or electronic device that performs most of the calculations a",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when multiple processes or threads are waiting for each other to release resources that they require, ",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used primarily in neural networks to prevent overfitting. It works by randomly set",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "In Convolutional Neural Networks (CNNs), a convolution refers to the process of applying a small filter or kernel to an ",
+        "reward": 1.0,
+        "feedback": "Correct! 'filter' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient descent is an optimization algorithm used to find the minimum of a function, typically in machine learning and ",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of converting plain text into an encoded form so that it can only be read or understood by som",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 52
+      }
+    ]
+  },
+  {
+    "step": 280,
+    "avg_reward": 0.8421,
+    "exact_match": 0.8421,
+    "avg_resp_len": 50.8,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.0526,
+    "n_eval": 19,
+    "eval_time_s": 74.4,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database is a collection of data organized in a specific way to store and manage information that can be accessed and ",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory that stores data temporarily while the computer is ",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital city of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 7
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions in machine learning serve several important purposes:\n\n1. Non-linearity: Activation functions intro",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 48
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "A stack and a queue are both types of linear data structures that store elements in a specific order. However, they diff",
+        "reward": 1.0,
+        "feedback": "Correct! 'lifo' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "The time complexity of Merge Sort is \\( O(n \\log n) \\).\n\nThis can be understood as follows:\n\n1. **Divide (O(log n))**: T",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['n log n', 'nlogn', 'o(n log n)']). Response:",
+        "n_words": 43
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool used to describe the complexity of an algorithm. It provides an upper bound on the",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 61
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem is a fundamental concept in computer science and distributed computing that describes limitations of dat",
+        "reward": 1.0,
+        "feedback": "Correct! 'partition' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory (Random Access Memory). It's a type of computer memory that can be accessed randomly",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation is an algorithm used in the training of artificial neural networks. It was first introduced and describe",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['gradient']). Response: 'Backpropagation is a",
+        "n_words": 47
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting occurs when a statistical model learns the detail and noise in the training data to the point where it negat",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a well-defined procedure or set of rules that specifies how to solve a particular problem or accomplish ",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a program that translates high-level programming languages into machine code or another lower-level langua",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A CPU (Central Processing Unit) is the primary component of a computer that performs most of the computational tasks in ",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when multiple processes or threads in an operating system become mutually waiting for each other to re",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used in neural networks to prevent overfitting. Overfitting occurs when a model le",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "A convolutional neural network (CNN) uses convolutions as its core feature detector mechanism to learn spatial hierarchi",
+        "reward": 1.0,
+        "feedback": "Correct! 'filter' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient descent is an optimization algorithm used to find the minimum of a function. It's commonly applied in machine l",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of converting plain text into ciphertext (encrypted data) using an algorithm and a key. The pu",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 55
+      }
+    ]
+  },
+  {
+    "step": 320,
+    "avg_reward": 0.8947,
+    "exact_match": 0.8947,
+    "avg_resp_len": 49.8,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": 0.0,
+    "n_eval": 19,
+    "eval_time_s": 75.9,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database is a collection of data organized in a specific way so that it can be easily accessed, updated, and managed. ",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is the primary storage device used to temporarily store data and instructions th",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function in machine learning and neural networks serves several key purposes:\n\n1. Non-linearity: Activatio",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "Stacks and queues are both fundamental data structures used in computer science to manage collections of elements. Howev",
+        "reward": 1.0,
+        "feedback": "Correct! 'fifo' found.",
+        "n_words": 43
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "The time complexity for Merge Sort is O(n log n) in all cases, where n is the number of items being sorted.\n\nThis is bec",
+        "reward": 1.0,
+        "feedback": "Correct! 'n log n' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is used to describe the performance or complexity of an algorithm in terms of the amount of time it takes",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 60
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem is a fundamental principle in distributed computing that states it's impossible for a distributed system",
+        "reward": 1.0,
+        "feedback": "Correct! 'partition' found.",
+        "n_words": 45
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory (Random Access Memory). It is a type of computer memory that allows data to be store",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation (also known as backward propagation of errors) is an algorithm used for training artificial neural netwo",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['gradient']). Response: 'Backpropagation (als",
+        "n_words": 50
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting is a common problem in machine learning where a model learns the training data too well, to the point where ",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or set of rules designed to solve a specific problem or accomplish a particular",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is an important tool in computer science used to convert source code written in high-level programming langua",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A Central Processing Unit (CPU) is the primary component of a computer that serves as its brain, executing instructions ",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "In the context of computer science and operating systems, a \"deadlock\" occurs when multiple processes or threads become ",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used in machine learning and artificial intelligence to prevent overfitting in dee",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "In Convolutional Neural Networks (CNNs), a convolution refers to the process of applying a small, learnable filter or ke",
+        "reward": 1.0,
+        "feedback": "Correct! 'filter' found.",
+        "n_words": 44
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient descent is an optimization algorithm used in machine learning and other fields to find the minimum of a functio",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 60
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of converting plain text into coded information (ciphertext) that can only be read with a key.",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 51
+      }
+    ]
+  },
+  {
+    "step": 360,
+    "avg_reward": 0.7895,
+    "exact_match": 0.7895,
+    "avg_resp_len": 49.5,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": -0.1052,
+    "n_eval": 19,
+    "eval_time_s": 75.3,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database is a structured collection of data that can be accessed and updated efficiently by multiple users or applicat",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. This is the temporary storage area in your computer's memory that allows you to qui",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 60
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital city of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 7
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function in machine learning and neural networks serves several key purposes:\n\n1. Non-linearity: Many prob",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "A stack and a queue are both fundamental data structures in computer science that allow you to store items and remove th",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['fifo', 'lifo', 'first in first out', 'last i",
+        "n_words": 54
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "The time complexity of Merge Sort is \\(O(n \\log n)\\).\n\nHere's how it works:\n\n1. **Divide**: The list/array is divided in",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['n log n', 'nlogn', 'o(n log n)']). Response:",
+        "n_words": 40
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends tow",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem is a fundamental principle in computer science and distributed system design, proposed by Eric Brewer at",
+        "reward": 1.0,
+        "feedback": "Correct! 'consistency' found.",
+        "n_words": 48
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory (Random Accessibility). It's a type of volatile memory used in computers and other e",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation (also known as backward propagation of errors) is an algorithm used in artificial neural networks to tra",
+        "reward": 1.0,
+        "feedback": "Correct! 'gradient' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting in machine learning refers to a situation where a model learns the detail and noise in the training data to ",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or formula for solving a problem or performing a task. It's essentially a set o",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 47
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a type of program that translates source code written in a high-level programming language into machine co",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A CPU, or Central Processing Unit, is the primary component of a computer responsible for executing instructions and per",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock is a situation that occurs when multiple processes or threads in an operating system become locked into a cir",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used in artificial neural networks to prevent overfitting. Overfitting occurs when",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "A Convolutional Neural Network (CNN) uses the concept of a \"convolution\" to process data and extract features from it.\n\n",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['filter', 'kernel', 'sliding', 'feature map']",
+        "n_words": 52
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient descent is an optimization algorithm used to find the minimum value of a function. It works by iteratively movi",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of encoding information so that only authorized parties can access it. Here's a breakdown:\n\n1.",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 45
+      }
+    ]
+  },
+  {
+    "step": 400,
+    "avg_reward": 0.9474,
+    "exact_match": 0.9474,
+    "avg_resp_len": 48.2,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": 0.0527,
+    "n_eval": 19,
+    "eval_time_s": 71.5,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database is a collection of data that is organized in a way that allows it to be efficiently stored and retrieved. Dat",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory.",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions play a crucial role in neural networks as they introduce non-linearity to the model, allowing it to",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "Stacks and queues are both data structures used in computer science to organize elements for efficient access.\n\n### Queu",
+        "reward": 1.0,
+        "feedback": "Correct! 'fifo' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "The time complexity of merge sort is O(n log n), where n is the number of elements in the array or list being sorted. Th",
+        "reward": 1.0,
+        "feedback": "Correct! 'n log n' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool used in computer science to analyze the efficiency of algorithms. It provides an u",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem, formulated by Eric Brewer at Stanford University and popularized through presentations by Doug Cutting ",
+        "reward": 1.0,
+        "feedback": "Correct! 'consistency' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory. It's a type of volatile memory that is used to store data temporarily while the com",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation is an algorithm used in machine learning to train artificial neural networks. It's based on the principl",
+        "reward": 1.0,
+        "feedback": "Correct! 'gradient' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting in machine learning refers to a situation where a model learns too much of the training data and starts perf",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a well-defined procedure or set of rules that specifies how to solve a problem or perform a task. It's a",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a computer program that translates source code written in one programming language into another programmin",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A CPU (Central Processing Unit) is the main component of most computers and mobile devices. It's responsible for executi",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock is a situation in which two or more processes are waiting for resources that are held by another process, but",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used primarily in neural networks to prevent overfitting. The primary purpose of d",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 48
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "In Convolutional Neural Networks (CNNs), the term \"convolution\" refers to a mathematical operation that combines two fun",
+        "reward": 1.0,
+        "feedback": "Correct! 'feature map' found.",
+        "n_words": 48
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient descent is an optimization algorithm used in machine learning to find the minimum of a function. It's particula",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of converting plain text into a coded form that can only be read or understood with specific k",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 51
+      }
+    ]
+  },
+  {
+    "step": 440,
+    "avg_reward": 0.8947,
+    "exact_match": 0.8947,
+    "avg_resp_len": 52.1,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": 0.0,
+    "n_eval": 19,
+    "eval_time_s": 75.4,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database is a structured collection of data that can be accessed and manipulated efficiently using specific query lang",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is the main memory of computers and other electronic devices where data can be s",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "Activation functions play a crucial role in artificial neural networks and other machine learning models used for classi",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "A stack and a queue are both abstract data structures used in computer science to store collections of elements. However",
+        "reward": 1.0,
+        "feedback": "Correct! 'lifo' found.",
+        "n_words": 47
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "The time complexity of Merge Sort is \\(O(n \\log n)\\), where \\(n\\) is the number of elements in the array or list that yo",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['n log n', 'nlogn', 'o(n log n)']). Response:",
+        "n_words": 51
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is used to describe the performance or complexity of an algorithm in terms of the input size. It provides",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem, proposed by Eric Brewer, states that it is impossible to simultaneously achieve all three of these prop",
+        "reward": 1.0,
+        "feedback": "Correct! 'consistency' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory (Random Access Method). It's a type of computer memory that allows data to be access",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation is an algorithm used in the training of artificial neural networks. It was first developed by Paul Werbo",
+        "reward": 1.0,
+        "feedback": "Correct! 'gradient' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting occurs when a statistical model or machine learning algorithm learns the detail and noise in the training da",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or set of rules designed to solve a specific problem or perform a particular ta",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a type of software that translates source code written in one programming language into machine code or an",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 59
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A CPU (Central Processing Unit) is the main component of a computer that serves as the brain or central processor for ex",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when multiple processes or threads are waiting for each other to release resources that they need but ",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used primarily for neural networks to prevent overfitting. Overfitting occurs when",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "A Convolutional Neural Network (CNN) is a type of deep learning model that uses multiple layers of artificial neurons to",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['filter', 'kernel', 'sliding', 'feature map']",
+        "n_words": 56
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of s",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of converting information into an encoded format so that only authorized parties can access it",
+        "reward": 1.0,
+        "feedback": "Correct! 'secur' found.",
+        "n_words": 59
+      }
+    ]
+  },
+  {
+    "step": 480,
+    "avg_reward": 0.8947,
+    "exact_match": 0.8947,
+    "avg_resp_len": 45.3,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": 0.0,
+    "n_eval": 19,
+    "eval_time_s": 69.1,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database is a collection of related data stored electronically and managed centrally. It can be thought of as an organ",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory.",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "The primary purpose of an activation function in neural networks (or more broadly, machine learning models) is to introd",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "Stacks and queues are both fundamental data structures in computer science with distinct properties.\n\n1. **Queue**:\n   -",
+        "reward": 1.0,
+        "feedback": "Correct! 'fifo' found.",
+        "n_words": 44
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "The time complexity of Merge Sort is O(n log n).",
+        "reward": 1.0,
+        "feedback": "Correct! 'n log n' found.",
+        "n_words": 10
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is primarily used to analyze and classify the time complexity of algorithms or functions in computer scie",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem (Consistency-Availability-Poison) was proposed by Eric Brewer at Google's research conference on May 12,",
+        "reward": 1.0,
+        "feedback": "Correct! 'partition' found.",
+        "n_words": 40
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory. It is a type of computer memory used to store data that the CPU (Central Processing",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation is an algorithm used in the training of artificial neural networks to calculate how much each weight sho",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['gradient']). Response: 'Backpropagation is a",
+        "n_words": 56
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting is a common problem in machine learning where a model learns the training data too well, to the point where ",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a well-defined procedure or set of rules for solving a problem or accomplishing a specific task. It's li",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a program that translates source code written in one programming language into another programming languag",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A central processing unit (CPU) is the core component of most modern computers and servers responsible for executing ins",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "A deadlock occurs when two or more processes are waiting for each other to release resources that they need to continue ",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 57
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used primarily in deep learning models, particularly in feedforward neural network",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 51
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "Convolutional Neural Networks (CNNs) use the concept of convolution to extract features from images or other types of da",
+        "reward": 1.0,
+        "feedback": "Correct! 'kernel' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient Descent is an optimization algorithm used in machine learning and artificial intelligence to find the minimum o",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of converting plain text (the original message or data) into ciphertext using an encryption al",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 54
+      }
+    ]
+  },
+  {
+    "step": 480,
+    "avg_reward": 0.8947,
+    "exact_match": 0.8947,
+    "avg_resp_len": 50.2,
+    "refusal_rate": 0.0,
+    "very_long_pct": 0.0,
+    "very_short_pct": 0.0,
+    "reward_delta": 0.0,
+    "n_eval": 19,
+    "eval_time_s": 72.7,
+    "per_question": [
+      {
+        "question": "What is a database used for?",
+        "response": "A database (DB) is a collection of data that is organized in a specific way to facilitate searching and retrieval. Datab",
+        "reward": 1.0,
+        "feedback": "Correct! 'data' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What does RAM stand for?",
+        "response": "RAM stands for Random Access Memory. It is the volatile memory used to store data temporarily during computer operation.",
+        "reward": 1.0,
+        "feedback": "Correct! 'random access' found.",
+        "n_words": 45
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "response": "The capital of Germany is Berlin.",
+        "reward": 1.0,
+        "feedback": "Correct! 'berlin' found.",
+        "n_words": 6
+      },
+      {
+        "question": "What is the purpose of an activation function?",
+        "response": "An activation function is used in neural networks to introduce non-linearity into the model. Its primary purposes includ",
+        "reward": 1.0,
+        "feedback": "Correct! 'non-linear' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is the difference between a stack and a queue?",
+        "response": "A stack and a queue are both abstract data structures that are used to store and manage collections of elements. However",
+        "reward": 1.0,
+        "feedback": "Correct! 'lifo' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is the time complexity of merge sort?",
+        "response": "The time complexity of Merge Sort is O(n log n), where n is the number of elements in the array or list being sorted.\n\nH",
+        "reward": 1.0,
+        "feedback": "Correct! 'n log n' found.",
+        "n_words": 52
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "response": "Big O notation is a mathematical tool used in computer science to describe the performance or complexity of an algorithm",
+        "reward": 1.0,
+        "feedback": "Correct! 'complexity' found.",
+        "n_words": 53
+      },
+      {
+        "question": "What is the CAP theorem in distributed systems?",
+        "response": "The CAP theorem, proposed by Eric Brewer at Google in 2007, states that it's impossible to simultaneously satisfy three ",
+        "reward": 1.0,
+        "feedback": "Correct! 'partition' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is RAM?",
+        "response": "RAM stands for Random Access Memory (Random-Access Memory). It's a type of computer memory used to store data that the C",
+        "reward": 1.0,
+        "feedback": "Correct! 'memory' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is backpropagation?",
+        "response": "Backpropagation is an algorithm used in artificial neural networks to train the network and adjust the weights of the co",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['gradient']). Response: 'Backpropagation is a",
+        "n_words": 54
+      },
+      {
+        "question": "What is overfitting?",
+        "response": "Overfitting is a common problem in machine learning where a model performs very well on the training data but poorly on ",
+        "reward": 1.0,
+        "feedback": "Correct! 'train' found.",
+        "n_words": 55
+      },
+      {
+        "question": "What is an algorithm?",
+        "response": "An algorithm is a step-by-step procedure or set of rules to solve a problem or perform a task. It's a well-defined compu",
+        "reward": 1.0,
+        "feedback": "Correct! 'step' found.",
+        "n_words": 50
+      },
+      {
+        "question": "What is a compiler?",
+        "response": "A compiler is a program that translates source code written in a high-level programming language into machine code or an",
+        "reward": 1.0,
+        "feedback": "Correct! 'translat' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is a CPU?",
+        "response": "A CPU (Central Processing Unit) is the main component of a computer that performs most of the processing tasks. It takes",
+        "reward": 1.0,
+        "feedback": "Correct! 'process' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is a deadlock in operating systems?",
+        "response": "In computer science, specifically in the field of operating systems and concurrent programming, a deadlock is a situatio",
+        "reward": 1.0,
+        "feedback": "Correct! 'wait' found.",
+        "n_words": 56
+      },
+      {
+        "question": "What is the purpose of dropout in neural networks?",
+        "response": "Dropout is a regularization technique used in artificial neural networks to prevent overfitting. It works by randomly se",
+        "reward": 1.0,
+        "feedback": "Correct! 'overfit' found.",
+        "n_words": 58
+      },
+      {
+        "question": "What is a convolution in CNNs?",
+        "response": "In Convolutional Neural Networks (CNNs), a \"convolution\" refers to a mathematical operation that applies a filter or ker",
+        "reward": 1.0,
+        "feedback": "Correct! 'filter' found.",
+        "n_words": 49
+      },
+      {
+        "question": "What is gradient descent?",
+        "response": "Gradient descent is an optimization algorithm used to find the minimum of a function. The idea behind gradient descent i",
+        "reward": 1.0,
+        "feedback": "Correct! 'optim' found.",
+        "n_words": 54
+      },
+      {
+        "question": "What is encryption?",
+        "response": "Encryption is the process of converting plain text (readable information) into ciphertext (unreadable or encoded informa",
+        "reward": 0.0,
+        "feedback": "Missing key concept (need one of: ['secur']). Response: 'Encryption is the proce",
+        "n_words": 50
+      }
+    ]
+  }
+]
