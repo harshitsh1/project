@@ -1,0 +1,45 @@
+# -------------------------------------------------------------
+# requirements.txt — SDPO Project (v1 through v5)
+# -------------------------------------------------------------
+# Install all dependencies:
+#   pip install -r requirements.txt
+#-------------------------------------------------------------
+# Version map:
+#   v1  — Teacher-Student DPO  (Qwen2.5-7B teacher + 1.5B student)
+#   v2  — Manual SDPO loop     (single model, UltraFeedback)
+#   v3  — SDPO + eval metrics  (SemanticEnvironment, train/test split)
+#   v4  — SDPO + NLI scorer    (NLIEnvironment, cross-encoder)
+#   v5  — SDPO + GRPO + EMA    (GRPOTrainer, SQuAD v2, JSD loss)
+# -------------------------------------------------------------
+
+#  Core ML framework -------------------------------------------------------------
+torch>=2.1.0                  # all versions
+torchvision>=0.16.0           # indirect dependency of sentence-transformers
+
+#  HuggingFace ecosystem -------------------------------------------------------------
+transformers>=4.40.0          # all versions (AutoModelForCausalLM, AutoTokenizer)
+datasets>=2.18.0              # all versions (load_dataset, Dataset)
+peft>=0.10.0                  # all versions (LoraConfig, get_peft_model)
+trl>=0.8.6                    # v1 (DPOTrainer, DPOConfig), v5 (GRPOTrainer, GRPOConfig)
+accelerate>=0.27.0            # required by trl and transformers Trainer classes
+tokenizers>=0.15.0            # required by transformers
+
+#  Quantization -------------------------------------------------------------
+bitsandbytes>=0.43.0          # v1 (4-bit teacher), v2-v5 (AdamW8bit optimizer)
+
+#  NLI / Semantic scoring -------------------------------------------------------------
+sentence-transformers>=2.7.0  # v3 (SemanticEnvironment: all-MiniLM-L6-v2)
+                              # v4 (NLIEnvironment: cross-encoder/nli-deberta-v3-small)
+                              # v5 (NLIEnvironment: same)
+
+#  Utilities -------------------------------------------------------------
+psutil>=5.9.0                 # all versions (ram_status memory monitoring)
+numpy>=1.24.0                 # v4, v5 (NLI softmax computation)
+
+#  Plotting (v5 only) -------------------------------------------------------------
+matplotlib>=3.7.0             # v5 (plot_results, 9-panel training dashboard)
+
+#  Optional but recommended -------------------------------------------------------------
+# scipy>=1.11.0               # speeds up sentence-transformers cosine similarity
+# huggingface_hub>=0.22.0     # explicit pin for stable model downloads
+# safetensors>=0.4.0          # faster/safer model weight loading
